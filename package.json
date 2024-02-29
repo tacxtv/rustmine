@@ -1,0 +1,36 @@
+{
+  "name": "@tacxtv/rustmine",
+  "version": "0.1.0",
+  "description": "Next generation open source Minecraft launcher",
+  "repository": "https://github.com/tacxtv/rustmine.git",
+  "author": "Tacx <12997062+tacxou@users.noreply.github.com>",
+  "license": "CC-BY-NC-SA",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstalla": "nuxt prepare",
+    "tauri": "tauri"
+  },
+  "dependencies": {
+    "@quasar/extras": "^1.16.9",
+    "@tauri-apps/api": "^1.5.3",
+    "quasar": "^2.14.3"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "^1.0.8",
+    "@tauri-apps/cli": "^1.5.9",
+    "nuxt": "^3.10.0",
+    "nuxt-quasar-ui": "^2.0.7",
+    "sass": "^1.70.0",
+    "vite-plugin-pug": "^0.3.2",
+    "vue": "^3.4.15",
+    "vue-router": "^4.2.5"
+  },
+  "peerDependencies": {
+    "string-width": "^1.0.2 || 2 || 3 || 4"
+  }
+}
